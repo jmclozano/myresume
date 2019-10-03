@@ -7,7 +7,7 @@ body{
 
 a{
      color: #9B3425;
-     border-bottom: 1px dotted;
+     border-bottom: 0px dotted;
      text-decoration: none;
      font-family: 'Shadows Into Light Two', cursive;
      font-size: 20px;
@@ -28,6 +28,7 @@ h3{
   font-family: 'Shadows Into Light Two', cursive;
   font-size: 28px;
   margin-bottom: 0px;
+  text-align: left;
 }
 h4{
   font-family: 'Shadows Into Light Two', cursive;
@@ -37,4 +38,34 @@ h4{
 
 img{
   margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
 }
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.flex-container-experience {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+#about {
+  justify-content: center;
+  text-align: right;
+  }

@@ -2,12 +2,13 @@
 <html lang="en" dir="ltr">
   <head>
     <title>Resume</title>
-    <link rel="stylesheet" type="text/css"
-    href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="shortcut icon" type="image/png" href="images/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Satisfy|Shadows+Into+Light+Two&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/deba291871.js" crossorigin="anonymous"></script>
-    <meta name="description" content="Jennifer Cunningham-Lozano Resume">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ <meta name="description" content="Jennifer Cunningham-Lozano Resume">
     <meta name="keywords" content="database design, ad tech, travel industry, sales, marketing, design, social media, IT, author">
     <style type="text/css">
       #main-header{
@@ -26,33 +27,80 @@
 
     <header id="main-header">
           <h1>Jennifer Cunningham-Lozano</h1>
-          <img src="images/background.jpeg" alt="desktop at work">
+          <img src="images/background.jpeg" alt="desktop at work" style="width:350px;height:300px;">
           <br>
           <a href="https://linkedin.com/in/jmclozano" target="_blank">My LinkedIn Page</a> |
           <a href="https://twitter.com/jmc_lozano" target="_blank">Let's Tweet</a>
     </header>
-    <section>
-      <article class="JOB">
+
+    <div id="about">
+      <h3>[Read | Learn | Teach | Inspire] <br>Digital Marketing Executive</h3>
+    </div>
+
+    <div class="flex-container">
+      <div>
+        <h1>Education</h1>
+        <img src="images/atwork.jpeg" alt="Image" style="width:300px;height:250px;">
+      </div>
+      <div>
+        <h1>Experience</h1>
+        <img src="images/desktop work.jpeg" alt="Image" style="width:300px;height:250px;">
+      </div>
+      <div>
+        <h1>Projects</h1>
+        <img src="images/teamwork.jpeg" alt="Image" style="width:300px;height:250px;">
+      </div>
+    </div>
+
+    <div>
+        <p>​
+          <h4>| Executive Profile |</h4>
+      <br>20 years experience as results-focused sales, marketing and operations expert with a thorough understanding of sales, contract and support process, extensive knowledge of Salesforce, content marketing, customer engagement, sales and client support strategies. Proven ability to drive sales gains and increase department productivity. Results include:
+      o Drove an increase in department communication and productivity with customized reporting and integrated Salesforce tool.<br>
+      <ul>
+      <li>Fueled increases in account base and pipeline movement while maintaining a 98% closing rate</li>
+      <li>Customized tracking of Pipeline, Proposal and Contract management in Salesforce
+      </li>
+      <li>Created key processes to increase internal communications and KPI tracking in CRM</li>
+      <li>Developed engaging Lead management process to increase lead movement in pipeline</li>
+      <li>Successfully guided multiple concurrent projects, with a 98% record of on-time delivery</li>
+      </ul>
+      <br>
+    </div>
+
+
+    <div id="experience" class="flex-container-experience">
+      <div>
         <h3>Vice President, Operations</h3>
         <medium>Consumable, Inc.</medium>
         <br>
         <small>2015-Present</small>
         <p>Support and develop organizational processes from support management, product planning, internal database design,  contract management, sales pipeline reporting, email marketing campaigns, marketing manager, social media, Project managed and develop internal reporting online dashboard /database for department analytics on client statistics of online ad media campaigns.  Executed all financial reporting for AR/AP process.</p>
-        <a href="http://consumable.com" target="_blank">Company website</a>
-      </article>
+      </div>
+      <div>
+         <a href="http://consumable.com" target="_blank">  <img src="images/consumable.png" alt="Image" style="width:300px;height:100px;"> </a>
+      </div>
+    </div>
 
-      <article class="JOB">
-        <h3>Author</h3>
-        <medium>And Cocoa Can</medium>
+  <div id="experience" class="flex-container-experience">
+    <div>
+      <h3>Author</h3>
+      <medium>And Cocoa Can</medium>
+      <br>
+      <small>Published 2017</small>
+      <p>Parents: Build your child's love of books while enjoying this fun story between a boy and his mom about what Cocoa the puppy can and can't do.
         <br>
-        <small>Published 2017</small>
-        <p>Parents: Build your child's love of books while enjoying this fun story between a boy and his mom about what Cocoa the puppy can and can't do.
-          <br>
-          <br>
-          Teachers: This book is perfect for teaching the sight word "can" and action words like go, eat, drive, climb. This book is geared towards preschool to first grade beginner readers. It is a great tool to promote student engagement and classroom discussions.</p>
-        <a href="https://www.amazon.com/Cocoa-Can-Jennifer-Marie-Lozano-ebook/dp/B01MZGSMOH" target="_blank">Book @Amazon</a>
-      </article>
+        <br>
+        Teachers: This book is perfect for teaching the sight word "can" and action words like go, eat, drive, climb. This book is geared towards preschool to first grade beginner readers. It is a great tool to promote student engagement and classroom discussions.</p>
+    </div>
+    <div>
+       <a href="https://www.amazon.com/Cocoa-Can-Jennifer-Marie-Lozano-ebook/dp/B01MZGSMOH" target="_blank">  <img src="images/andcocoacan.jpg" alt="Image" style="width:200px;height:150px;"> </a>
+    </div>
+    </div>
 
+
+
+    <section>
       <article class="JOB">
         <h3>Founder</h3>
         <medium>BookNook Cneter</medium>
@@ -89,7 +137,7 @@
 
 
     <footer id="main-footer">
-    <p>Copyright&copy; 2019 Jennifer Cunningham-Lozano | email: <a href="mailto:jmclozano@gmail.com">jmclozano@gmail.com</a></p>
+    <p>Copyright&copy; 2019 Jennifer Cunningham-Lozano | email: <a href="mailto:jmclozano@gmail.com">jmclozano@gmail.com</a> <span class="glyphicon glyphicon-envelope"></span> </p>
   </footer>
 
   <div style="margin-top:50px"></div>
