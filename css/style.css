@@ -65,7 +65,9 @@ img:hover {
   text-align: left;
 }
 
-#about {
-  justify-content: center;
-  text-align: right;
+.title {
+  text-align: center;
+  }
+  #hw1{
+    text-align: center;;
   }
