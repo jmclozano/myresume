@@ -1,9 +1,9 @@
 # myResume
 # 5002 class project
 
-## my website's goal
-## goal for myself
-## goal for audiencce
+### my website's goal
+### goal for myself
+### goal for audiencce
 
 Website’s goal
 
