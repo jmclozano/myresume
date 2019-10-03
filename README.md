@@ -1,8 +1,8 @@
 # myResume
-5002 class project
+# 5002 class project
 
 
-Website’s goal
+## Website’s goal
 
 First impression
 
