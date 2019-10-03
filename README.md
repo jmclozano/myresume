@@ -1,14 +1,14 @@
-# myresume
+# myResume
 5002 class project
 
 
-# Website’s goal - resume review
+Website’s goal
 
-First impression - basic design
+First impression
 
-Wording is clear and crisp - 
+Wording is clear and crisp 
 
-mobile version maintains clarity of essential elements - need to improve padding on smaller screen
+mobile version maintains clarity of essential elements
 
 Asthetics is authentic and original 
 
