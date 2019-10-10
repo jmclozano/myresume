@@ -71,3 +71,20 @@ img:hover {
   #hw1{
     text-align: center;
   }
+
+  @media (max-width: 600px) {
+    .row {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+    h1{
+    font-size: 20px;
+    }
+
+    #title{
+      text-align: center;
+    }
+
+    img{
+      display: none;
+    }
