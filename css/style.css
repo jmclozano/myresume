@@ -65,6 +65,15 @@ img:hover {
   text-align: left;
 }
 
+.flex-container-education {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+}
+
+
 .title {
   text-align: center;
   }
