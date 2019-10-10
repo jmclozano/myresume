@@ -1,5 +1,5 @@
 # myResume
-# 5002 class project
+5002 class project
 
 ### my website's goal
 ### goal for myself
@@ -13,7 +13,7 @@ Wording is clear and crisp
 
 mobile version maintains clarity of essential elements
 
-Asthetics is authentic and original 
+Asthetics is authentic and original
 
 Sideration of various visual design elements
 
