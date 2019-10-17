@@ -76,9 +76,14 @@ img:hover {
 .flex-container-education {
   display: flex;
   flex-direction: row;
-  justify-content: left;
-  align-items: left;
+  justify-content: space-between;
+  align-items: center;
   text-align: left;
+  text-overflow: ellipsis;
+  flex-basis: auto;
+  width: -moz-min-content;
+  width: min-content;
+  column-gap: 20em;
 }
 
 
